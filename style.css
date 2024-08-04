@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* color variables */
+:root {
+  --main-color: #3273ba;
+  --main-darker-color: #2a619b;
+  --dark-bg-color: rgb(253, 252, 252);
+  --white: white;
+  --border-color: #ccc;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(16, 16, 16);
+}
+
+.highlight-text {
+  color: var(--main-color);
+}
+
+.custom-dark-bg {
+  background-color: var(--dark-bg-color);
+}
+
+.custom-box {
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
+.job-info p {
+  margin: 0px 0px 5px;
+}
+
+.custom-btn {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-btn:hover {
+  background-color: var(--main-darker-color);
+}
+
+.custom-btn-primary {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+}
+.custom-btn-primary:hover {
+  background-color: var(--main-darker-color);
+}
+.custom-btn-outline {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+}
+.custom-btn-outline:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+/* .header{
+    background-image: ;
+} */
